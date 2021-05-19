@@ -1,5 +1,5 @@
 import React from "react";
-function Profolio() {
+function Portfolio() {
   return (
     <div class="container">
       <div class="row p-1">
@@ -164,3 +164,4 @@ function Profolio() {
     </div>
   );
 }
+export default Portfolio;
