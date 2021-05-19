@@ -8,7 +8,7 @@ function Portfolio() {
           <div className="card">
             <img
               src="assets/day-scheduler.jpg"
-              class="card-img-top img-fluid"
+              className="card-img-top img-fluid"
               alt="a day scheduler project"
             />
             <div className="card-body">
