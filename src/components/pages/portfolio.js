@@ -2,6 +2,7 @@ import React from "react";
 function Portfolio() {
   return (
     <div className="container">
+      <h1>Portfolio</h1>
       <div className="row p-1">
         <div className="col-md-6 p-1">
           <div className="card">
