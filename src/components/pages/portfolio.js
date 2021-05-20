@@ -19,13 +19,13 @@ function Portfolio() {
               </p>
               <a
                 href="https://dad1977ut.github.io/Work-Day-Scheduler/"
-                class="btn btn-primary"
+                className="btn btn-primary"
               >
                 Open website
               </a>
               <a
                 href="https://github.com/dad1977ut/Work-Day-Scheduler"
-                class="btn btn-primary"
+                className="btn btn-primary"
               >
                 Open repo
               </a>
@@ -79,7 +79,7 @@ function Portfolio() {
               </a>
               <a
                 href="https://github.com/dad1977ut/Code-Quiz"
-                class="btn btn-primary"
+                className="btn btn-primary"
               >
                 Open repo
               </a>
