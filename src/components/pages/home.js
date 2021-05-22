@@ -4,7 +4,7 @@ function Home() {
     <div className="container mt-5 mx-0 p-0">
       <div className="row"></div>
       <div className="row mx-0">
-        <div className="card mx-sm-5" style="max-width: 1000px">
+        <div className="card mx-sm-5" style={{ maxWidth: "1000px" }}>
           <h1 className="card-head">About Me</h1>
           <div className="row">
             <div className="col-md-6 col-lg-4">
