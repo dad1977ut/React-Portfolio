@@ -1,4 +1,5 @@
 import React from "react";
+import Dameon from "../assets/012.jpg";
 function Home() {
   return (
     <div className="container mt-5 mx-0 p-0">
@@ -8,11 +9,7 @@ function Home() {
           <h1 className="card-head">About Me</h1>
           <div className="row">
             <div className="col-md-6 col-lg-4">
-              <img
-                src="assets/012.jpg"
-                className="img-fluid"
-                alt="Dameon Davis"
-              />
+              <img src={Dameon} className="img-fluid" alt="Dameon Davis" />
             </div>
             <div className="col-md-5 col-lg-5">
               <div className="card-body">
