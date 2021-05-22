@@ -1,5 +1,6 @@
 import React from "react";
 import Dameon from "../assets/012.jpg";
+import Resume from "../assets/Dameon-Davis.pdf";
 function Home() {
   return (
     <div className="container mt-5 mx-0 p-0">
@@ -29,7 +30,7 @@ function Home() {
                   LinkedIn profile
                 </a>
                 <br />
-                <a href="assets/Dameon-Davis.pdf">Download my resume</a>
+                <a href={Resume}>Download my resume</a>
               </div>
             </div>
           </div>
