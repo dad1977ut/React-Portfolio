@@ -1,6 +1,8 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function Navebar() {
+  const location = useLocation();
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-primary">
       <div className="container-fluid">
@@ -19,19 +21,41 @@ function Navebar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="/contact">
+              <Link
+                to="/contact"
+                className={
+                  location.pathname === "/contact"
+                    ? "nave-link active"
+                    : "new-link"
+                }
+                style={{ color: "black" }}
+              >
                 Contact
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/portfolio">
+              <Link
+                to="/portfolio"
+                className={
+                  location.pathname === "/portfolio"
+                    ? "nave-link active"
+                    : "new-link"
+                }
+                style={{ color: "black" }}
+              >
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" aria-current="page" href="/">
+              <Link
+                to="/"
+                className={
+                  location.pathname === "/" ? "nave-link active" : "new-link"
+                }
+                style={{ color: "black" }}
+              >
                 About
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
