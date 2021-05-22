@@ -99,13 +99,13 @@ function Portfolio() {
               <h5 className="card-title">Workout-Tracker</h5>
               <p className="card-text">This is a app to help track workouts</p>
               <a
-                href="https://github.com/dad1977ut/Workout-Tracker"
+                href="https://obscure-chamber-77092.herokuapp.com/"
                 className="btn btn-primary"
               >
                 Open website
               </a>
               <a
-                href="https://obscure-chamber-77092.herokuapp.com/"
+                href="https://github.com/dad1977ut/Workout-Tracker"
                 className="btn btn-primary"
               >
                 Open repo
@@ -126,13 +126,13 @@ function Portfolio() {
               <h5 className="card-title">Burger app</h5>
               <p className="card-text">Creates burgers</p>
               <a
-                href="https://github.com/dad1977ut/burger"
+                href="https://lit-dawn-18330.herokuapp.com/"
                 className="btn btn-primary"
               >
                 Open website
               </a>
               <a
-                href="https://lit-dawn-18330.herokuapp.com/"
+                href="https://github.com/dad1977ut/burger"
                 className="btn btn-primary"
               >
                 Open repo
@@ -151,13 +151,13 @@ function Portfolio() {
               <h5 className="card-title">Password Generator</h5>
               <p className="card-text">Creates a password</p>
               <a
-                href="https://github.com/dad1977ut/Password-Generator"
+                href="https://dad1977ut.github.io/Password-Generator/"
                 className="btn btn-primary"
               >
                 Open website
               </a>
               <a
-                href="https://dad1977ut.github.io/Password-Generator/"
+                href="https://github.com/dad1977ut/Password-Generator"
                 className="btn btn-primary"
               >
                 Open repo
