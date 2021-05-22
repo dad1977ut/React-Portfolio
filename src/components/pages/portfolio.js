@@ -1,4 +1,10 @@
 import React from "react";
+import Burger from "../assets/burger_app.jpg";
+import Day from "../assets/day-scheduler.jpg";
+import Password from "../assets/end.jpg";
+import Start from "../assets/start.jpg";
+import Travel from "../assets/travel.jpg";
+import Workout from "../assets/workout.jpg";
 function Portfolio() {
   return (
     <div className="container">
@@ -7,7 +13,7 @@ function Portfolio() {
         <div className="col-md-6 p-1">
           <div className="card">
             <img
-              src="assets/day-scheduler.jpg"
+              src={Day}
               className="card-img-top img-fluid"
               alt="a day scheduler project"
             />
@@ -35,7 +41,7 @@ function Portfolio() {
         <div className="col-md-6 p-1">
           <div className="card">
             <img
-              src="assets/travel.jpg"
+              src={Travel}
               className="card-img-top img-fluid"
               alt="Travel planner project"
             />
@@ -63,11 +69,7 @@ function Portfolio() {
       <div className="row p-1">
         <div className="col-md-6 p-1">
           <div className="card">
-            <img
-              src="assets/start.jpg"
-              className="card-img-top img-fluid"
-              alt="quiz"
-            />
+            <img src={Start} className="card-img-top img-fluid" alt="quiz" />
             <div className="card-body">
               <h5 className="card-title">Code Quiz</h5>
               <p className="card-text">This a code quiz app</p>
@@ -89,7 +91,7 @@ function Portfolio() {
         <div className="col-md-6 p-1">
           <div className="card">
             <img
-              src="assets/workout.jpg"
+              src={Workout}
               className="card-img-top img-fluid"
               alt="workout"
             />
@@ -116,7 +118,7 @@ function Portfolio() {
         <div className="col-md-6 p-1">
           <div className="card">
             <img
-              src="assets/burger_app.jpg"
+              src={Burger}
               className="card-img-top img-fluid"
               alt="workout"
             />
@@ -141,7 +143,7 @@ function Portfolio() {
         <div className="col-md-6 p-1">
           <div className="card">
             <img
-              src="assets/end.jpg"
+              src={Password}
               className="card-img-top img-fluid"
               alt="workout"
             />
