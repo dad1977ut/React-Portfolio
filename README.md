@@ -1,3 +1,17 @@
+I want to make a portfolio using react
+
+# Criteria
+
+- make an index, contact, and portfolio
+- add a navbar and footer then display them on all pages
+- add personal information on a about page
+- make item in website responsive using bootstrap
+  Project website: https://dad1977ut.github.io/React-Portfolio/
+  Project repository: https://github.com/dad1977ut/React-Portfolio
+  ![index](./src/components/assets/index.jpg)
+  ![contact](./src/components/assets/contact.jpg)
+  ![portfolio](./src/components/assets/portfolio.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
